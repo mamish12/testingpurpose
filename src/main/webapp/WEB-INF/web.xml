@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>ValidateAdmin</servlet-name>
+  <servlet-class>ValidateAd</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>StoreParticipant</servlet-name>
+  <servlet-class>StoreP</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>ValidatePassword</servlet-name>
+  <servlet-class>VaPa</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>AddEvent</servlet-name>
+  <servlet-class>AddEvent</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>Register</servlet-name>
+  <servlet-class>Register</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>ViewEvent1</servlet-name>
+  <servlet-class>ViewEvent1</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>TraH</servlet-name>
+  <servlet-class>TraH</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ValidateAdmin</servlet-name>
+  <url-pattern>/ValidateAd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>StoreParticipant</servlet-name>
+  <url-pattern>/StoreP</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ValidatePassword</servlet-name>
+  <url-pattern>/VaPa</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>AddEvent</servlet-name>
+  <url-pattern>/AddEvent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Register</servlet-name>
+  <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>ViewEvent1</servlet-name>
+  <url-pattern>/ViewEvent1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>TraH</servlet-name>
+  <url-pattern>/TraH</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
